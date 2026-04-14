@@ -2,7 +2,11 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3670A0,100:F7DF1E&height=200&section=header&text=Eidan%20Cuadros&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Python%20%7C%20JavaScript%20%7C%20Terminal&descAlignY=60&descSize=18&animation=fadeIn" />
 
 # Hola, soy Eidan 👋
-Estudiante de programación aprendiendo Python y JavaScript desde Colombia 🇨🇴
+Estudio programación desde Bucaramanga. Empecé con Python hace unos meses y ya me encanto la metodologia detras de todo. Me gusta mucho lo que se puede hacer con la terminal y automatizar cosas que antes hacía a mano y sobretodo programar claro.
+
+## Un poco de contexto
+
+No vengo de una carrera tradicional de sistemas busco destacar estoy aprendiendo y estudiando en campusland, con proyectos reales y mucho ensayo y error. Python me costó más de lo que quisiera admitir.
 
 ---
 
