@@ -1,4 +1,4 @@
-<!-- <!-- animacion del banner inicial --> -->
+<!-- <!-- animacion del banner inicial --> 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3670A0,100:F7DF1E&height=200&section=header&text=Eidan%20Cuadros&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Python%20%7C%20JavaScript%20%7C%20Terminal&descAlignY=60&descSize=18&animation=fadeIn" />
 
 # Hola, soy Eidan 👋
