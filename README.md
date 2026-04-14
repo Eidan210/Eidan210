@@ -1,5 +1,7 @@
-# Hola, soy Eidan 👋
+<!-- <!-- animacion del banner inicial --> -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3670A0,100:F7DF1E&height=200&section=header&text=Eidan%20Cuadros&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Python%20%7C%20JavaScript%20%7C%20Terminal&descAlignY=60&descSize=18&animation=fadeIn" />
 
+# Hola, soy Eidan 👋
 Estudiante de programación aprendiendo Python y JavaScript desde Colombia 🇨🇴
 
 ---
@@ -24,6 +26,8 @@ goal     = "mejorar cada día y construir proyectos propios"
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-FF6D5B?style=flat&logo=n8n&logoColor=white)
 
 ---
 
@@ -36,10 +40,11 @@ goal     = "mejorar cada día y construir proyectos propios"
 
 ## En qué estoy trabajando
 
-- Scripts de automatización en Python
-- Aprendiendo a consumir APIs REST
+- Scripts en Python
 - Practicando Git y GitHub
-- Explorando FastAPI
+- Manejo de terminal linux/git/Windows
+- Metodologias Scrum
+
 
 ---
 
@@ -67,8 +72,10 @@ goal     = "mejorar cada día y construir proyectos propios"
 
 ---
 
-*"Code is like humor. When you have to explain it, it's bad." – Cory House*
+*"El código es como el humor. Cuando tienes que explicarlo, es malo." — Cory House*
 
 **Hecho en 💻 & ☕ por Eidan Cuadros**
 
 </div>
+<!-- animacion final -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F7DF1E,100:3670A0&height=120&section=footer" />
