@@ -1,5 +1,11 @@
 <!-- <!-- animacion del banner inicial --> 
+<div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:3670A0,100:F7DF1E&height=200&section=header&text=Eidan%20Cuadros&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Software%20Developer%20%7C%20Python%20%7C%20JavaScript%20%7C%20Terminal&descAlignY=60&descSize=18&animation=fadeIn" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=3670A0&center=true&vCenter=true&width=600&lines=Hola+%2C+Soy+Eidan+Cuadros+%F0%9F%91%8B;Software+Developer+Junior+%7C+Builder+%7C+Learner;Python+%7C+JavaScript+%7C+Bash;Siempre+Codificando+algo+nuevo...&random=false" alt="Typing SVG" />
+</a>
+</div>
+<br />
 
 # Hola, soy Eidan 👋
 Estudio programación desde Bucaramanga. Empecé con Python hace unos meses y ya me encanto la metodologia detras de todo. Me gusta mucho lo que se puede hacer con la terminal y automatizar cosas que antes hacía a mano y sobretodo programar claro.
