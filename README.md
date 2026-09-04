@@ -55,6 +55,4 @@ Ahora mismo profundizo en bases de datos relacionales y metodologías ágiles.
 
 Busco mi primera oportunidad como desarrollador junior. El canal más rápido es el correo.
 
-[![Portafolio](https://img.shields.io/badge/Portafolio-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://eidan210.github.io/portafolio-junior/)
-[![Gmail](https://img.shields.io/badge/eidanalexander210@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eidanalexander210@gmail.com)
-![Discord](https://img.shields.io/badge/eidan210-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+<div align="center"> <a href="mailto:eidanalexander210@gmail.com"> <img src="https://img.shields.io/badge/eidanalexander210@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo" /> </a> <a href="https://eidan210.github.io/portafolio-junior/"> <img src="https://img.shields.io/badge/Portafolio-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=0D0F14" alt="Portafolio" /> </a> <img src="https://img.shields.io/badge/eidan210-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,100:0D0F14&height=110&section=footer" alt="" /> </div>
