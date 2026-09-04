@@ -1,58 +1,111 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0F14,100:7AA2F7&height=170&section=header&text=Eidan%20Cuadros&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Junior%20Software%20Developer&descAlignY=57&descSize=18&animation=fadeIn" alt="Eidan Cuadros — Junior Software Developer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0F14,50:1A1E28,100:7AA2F7&height=160&section=header&text=Eidan%20Cuadros&fontSize=50&fontColor=E4E7EE&fontAlignY=36&desc=Junior%20Software%20Developer&descAlignY=58&descSize=17&animation=fadeIn" alt="Eidan Cuadros — Junior Software Developer" />
+
+<a href="https://eidan210.github.io/portafolio-junior/">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=19&pause=1200&color=7AA2F7&center=true&vCenter=true&width=620&height=42&lines=Automatizo+con+n8n+lo+que+antes+se+hac%C3%ADa+a+mano;JavaScript+y+Python+sin+frameworks;Todo+lo+que+digo+que+s%C3%A9%2C+est%C3%A1+publicado+como+c%C3%B3digo" alt="Automatizo con n8n lo que antes se hacía a mano · JavaScript y Python sin frameworks · Todo lo que digo que sé, está publicado como código" />
+</a>
+
+<br />
+
+![Floridablanca, Colombia](https://img.shields.io/badge/Floridablanca-Colombia-99A1B3?style=flat-square&labelColor=14171F)
+![Disponible para mi primer rol junior](https://img.shields.io/badge/Disponible-primer%20rol%20junior-9ECE6A?style=flat-square&labelColor=14171F)
+![Campuslands feb 2026 – mar 2027](https://img.shields.io/badge/Campuslands-feb%202026%20%E2%80%93%20mar%202027-7AA2F7?style=flat-square&labelColor=14171F)
 
 </div>
 
+---
+
 ## Sobre mí
 
-Construyo aplicaciones funcionales desde cero con **JavaScript** y **Python**, sin depender de
-frameworks, y automatizo con **n8n** procesos que antes se hacían a mano.
+Construyo aplicaciones que funcionan de punta a punta con **JavaScript** y **Python**, sin apoyarme en frameworks, y automatizo con **n8n** procesos que antes se hacían a mano.
 
-No vengo de una carrera tradicional de sistemas: me formo en **Campuslands** (feb 2026 – mar 2027),
-donde cada módulo se aprueba entregando software que funciona. Todo lo que digo que sé está
-publicado aquí como código que se puede leer.
+No vengo de una carrera tradicional de sistemas. Me formo en **Campuslands**, donde cada módulo se aprueba entregando software que funciona, y ahora mismo profundizo en bases de datos relacionales y metodologías ágiles.
 
-Estoy en **Floridablanca, Colombia**, buscando mi primer rol como desarrollador junior.
-Ahora mismo profundizo en bases de datos relacionales y metodologías ágiles.
+Busco mi primera oportunidad como desarrollador junior.
+
+---
+
+## Proyecto destacado
+
+### Preselección Inteligente de Candidatos
+
+Un reclutador que recibe 200 CVs dedica días a la primera criba. Este flujo la resuelve en minutos: lee cada CV en PDF, lo evalúa contra los requisitos reales de la vacante y avisa al equipo de RRHH solo de los perfiles que valen la pena — **dejando siempre la decisión final en una persona.**
+
+```mermaid
+flowchart LR
+    A["CV en PDF"] --> B["n8n<br/>extrae y normaliza el texto"]
+    B --> C["Google Gemini<br/>puntúa contra la vacante"]
+    C --> D{"¿Supera<br/>el umbral?"}
+    D -- Sí --> E["Aviso a RRHH<br/>Gmail + Telegram"]
+    D -- No --> F["Queda registrado<br/>con el motivo"]
+    E --> G["Decisión final:<br/>una persona"]
+```
+
+**n8n** · **Google Gemini** · **JavaScript** · **Gmail API** · **Telegram Bot API**
+
+[Ver el código →](https://github.com/Eidan210/Proyecto_n8n)
+
+---
 
 ## Stack
 
-**Lenguajes**
+| Área | Tecnologías |
+| :--- | :--- |
+| **Lenguajes** | Python · JavaScript (ES6+) · Java · SQL |
+| **Frontend** | HTML5 semántico · CSS3 (Grid, Flexbox) · DOM · Diseño responsive |
+| **Datos y APIs** | PostgreSQL · JSON · APIs REST (Fetch) |
+| **Automatización e IA** | n8n · Google Gemini |
+| **Entorno** | Git · GitHub · VS Code · Linux · Bash |
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+> En formación activa: modelado relacional y Scrum.
 
-**Datos y automatización**
+---
 
-![n8n](https://img.shields.io/badge/n8n-FF6D5B?style=flat&logo=n8n&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white)
-
-**Entorno**
-
-![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-## Proyectos
+## Otros proyectos
 
 | Proyecto | Qué resuelve | Stack |
 | :--- | :--- | :--- |
-| **[Preselección Inteligente de Candidatos](https://github.com/Eidan210/Proyecto_n8n)** | Evalúa CVs en PDF con IA, puntúa la compatibilidad con la vacante y avisa a RRHH por Gmail y Telegram, dejando la decisión final en manos del reclutador | n8n · Google Gemini · JS |
-| **[Mym Designsx](https://github.com/Eidan210/Proyecto-Automatizacion-mym)** · [ver en vivo ↗](https://eidan210.github.io/Proyecto-Automatizacion-mym/) | Tienda de prendas personalizables: catálogo con filtros, personalizador, carrito con IVA y checkout que envía el recibo | JS vanilla · n8n · PostgreSQL |
-| **[Portafolio personal](https://github.com/Eidan210/portafolio-junior)** · [ver en vivo ↗](https://eidan210.github.io/portafolio-junior/) | Sitio estático sin dependencias ni build, mobile-first y accesible (WCAG AA) | HTML · CSS · JS |
-| **[Control de APIs](https://github.com/Eidan210/Control-De-Apis-JS)** | Cliente web que consume la API de RAWG con Fetch y un mensaje de error distinto por cada caso de fallo | JavaScript · Fetch API |
-| **[CampusTech v2.0](https://github.com/Eidan210/CampusTech-V2.0-Eidan)** | Inventario tecnológico por consola en cinco módulos con persistencia en JSON | Python · JSON |
-| **[Simulador de Gasto Diario](https://github.com/Eidan210/Moneda)** | Gastos por consola con totales diarios, semanales y mensuales, repartido en seis módulos | Python · JSON |
+| **[Mym Designsx](https://github.com/Eidan210/Proyecto-Automatizacion-mym)** · [demo ↗](https://eidan210.github.io/Proyecto-Automatizacion-mym/) | Tienda de prendas personalizables: catálogo con filtros, personalizador, carrito con IVA y checkout que envía el recibo al cliente | JS vanilla · n8n · PostgreSQL |
+| **[Portafolio personal](https://github.com/Eidan210/portafolio-junior)** · [demo ↗](https://eidan210.github.io/portafolio-junior/) | Sitio estático sin dependencias ni build, mobile-first y accesible (WCAG AA) | HTML · CSS · JS |
+| **[Control de APIs](https://github.com/Eidan210/Control-De-Apis-JS)** | Cliente web sobre la API de RAWG con un mensaje de error distinto para cada caso de fallo, en vez de un genérico | JavaScript · Fetch API |
+
+<details>
+<summary><b>Proyectos de consola en Python</b></summary>
+
+<br />
+
+| Proyecto | Qué resuelve | Stack |
+| :--- | :--- | :--- |
+| **[CampusTech v2.0](https://github.com/Eidan210/CampusTech-V2.0-Eidan)** | Inventario tecnológico repartido en cinco módulos con persistencia en JSON. Reescritura modular de una primera versión monolítica | Python · JSON |
+| **[Simulador de Gasto Diario](https://github.com/Eidan210/Moneda)** | Registro de gastos con totales diarios, semanales y mensuales, en seis módulos independientes | Python · JSON |
+
+</details>
+
+---
+
+## Cómo trabajo
+
+- **Diagnóstico antes que parche.** Reproduzco el fallo, aíslo la causa y corrijo el origen, no el síntoma.
+- **Commits atómicos** con [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/) e historial legible, en vez de un volcado de cambios al final.
+- **README que explica la decisión tomada**, no solo cómo se instala.
+- **Nativo antes que dependencia.** Mido lo que cuesta mantener algo antes de instalarlo.
+
+---
 
 ## Contacto
 
-Busco mi primera oportunidad como desarrollador junior. El canal más rápido es el correo.
+<div align="center">
 
-<div align="center"> <a href="mailto:eidanalexander210@gmail.com"> <img src="https://img.shields.io/badge/eidanalexander210@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Correo" /> </a> <a href="https://eidan210.github.io/portafolio-junior/"> <img src="https://img.shields.io/badge/Portafolio-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=0D0F14" alt="Portafolio" /> </a> <img src="https://img.shields.io/badge/eidan210-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,100:0D0F14&height=110&section=footer" alt="" /> </div>
+El canal más rápido es el correo. Respondo el mismo día.
+
+<a href="mailto:eidanalexander210@gmail.com">
+  <img src="https://img.shields.io/badge/eidanalexander210@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Escribirme un correo" />
+</a>
+<a href="https://eidan210.github.io/portafolio-junior/">
+  <img src="https://img.shields.io/badge/Ver%20portafolio-7AA2F7?style=for-the-badge&logo=googlechrome&logoColor=0D0F14" alt="Ver mi portafolio" />
+</a>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7AA2F7,50:1A1E28,100:0D0F14&height=110&section=footer" alt="" />
+
+</div>
