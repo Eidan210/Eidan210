@@ -45,7 +45,7 @@ Ahora mismo profundizo en bases de datos relacionales y metodologías ágiles.
 | Proyecto | Qué resuelve | Stack |
 | :--- | :--- | :--- |
 | **[Preselección Inteligente de Candidatos](https://github.com/Eidan210/Proyecto_n8n)** | Evalúa CVs en PDF con IA, puntúa la compatibilidad con la vacante y avisa a RRHH por Gmail y Telegram, dejando la decisión final en manos del reclutador | n8n · Google Gemini · JS |
-| **[Mym Designsx](https://github.com/Eidan210/Proyecto-Automatizacion-mym)** | Tienda de prendas personalizables: catálogo con filtros, personalizador, carrito con IVA y checkout que envía el recibo | JS vanilla · n8n · PostgreSQL |
+| **[Mym Designsx](https://github.com/Eidan210/Proyecto-Automatizacion-mym)** · [ver en vivo ↗](https://eidan210.github.io/Proyecto-Automatizacion-mym/) | Tienda de prendas personalizables: catálogo con filtros, personalizador, carrito con IVA y checkout que envía el recibo | JS vanilla · n8n · PostgreSQL |
 | **[Portafolio personal](https://github.com/Eidan210/portafolio-junior)** · [ver en vivo ↗](https://eidan210.github.io/portafolio-junior/) | Sitio estático sin dependencias ni build, mobile-first y accesible (WCAG AA) | HTML · CSS · JS |
 | **[Control de APIs](https://github.com/Eidan210/Control-De-Apis-JS)** | Cliente web que consume la API de RAWG con Fetch y un mensaje de error distinto por cada caso de fallo | JavaScript · Fetch API |
 | **[CampusTech v2.0](https://github.com/Eidan210/CampusTech-V2.0-Eidan)** | Inventario tecnológico por consola en cinco módulos con persistencia en JSON | Python · JSON |
