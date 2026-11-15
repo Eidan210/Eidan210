@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 132" width="1000" height="132" role="img" aria-labelledby="t">
+  <title id="t">Problema: la criba manual consume días. Solución: extracción, evaluación con IA y notificación. Criterio: decide una persona.</title>
+  <style>text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+
+    .card { fill: #ffffff; stroke: #d0d7de; }
+    .hl { fill: #eef3ff; stroke: #7AA2F7; }
+    .name { fill: #1f2328; font-size: 16px; font-weight: 700; }
+    .item { fill: #59636e; font-size: 13.5px; }
+    .tag { fill: #59636e; font-size: 13px; font-weight: 600; }
+    .arrow { fill: none; stroke: #8c959f; stroke-width: 2; }
+    .head { fill: #8c959f; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #161b22; stroke: #30363d; }
+      .hl { fill: #1a2236; stroke: #7AA2F7; }
+      .name { fill: #f0f6fc; }
+      .item, .tag { fill: #9198a1; }
+      .title { fill: #f0f6fc; }
+      .arrow { stroke: #6e7681; }
+      .head { fill: #6e7681; }
+    }
+
+    .title { fill: #1f2328; font-size: 19px; font-weight: 700; }
+    .chip { fill: #1f2328; font-size: 13.5px; font-weight: 600; }
+    .body { fill: #424a53; font-size: 15px; }
+    @media (prefers-color-scheme: dark) {
+      .title, .chip { fill: #f0f6fc; }
+      .body { fill: #9198a1; }
+    }
+  </style>
+  <g transform="translate(4 4)"><rect class="card" width="324" height="124" rx="14"/><rect x="0" y="16" width="5" height="92" rx="2" fill="#F7768E"/><text class="tag" x="26" y="38" style="fill:#F7768E;letter-spacing:2px">PROBLEMA</text><text class="body" x="26" y="70">La primera criba manual de</text><text class="body" x="26" y="94">cientos de CVs consume días.</text></g><g transform="translate(336 4)"><rect class="card" width="324" height="124" rx="14"/><rect x="0" y="16" width="5" height="92" rx="2" fill="#7AA2F7"/><text class="tag" x="26" y="38" style="fill:#7AA2F7;letter-spacing:2px">SOLUCIÓN</text><text class="body" x="26" y="70">Extracción, evaluación con IA</text><text class="body" x="26" y="94">y notificación automática.</text></g><g transform="translate(668 4)"><rect class="card" width="324" height="124" rx="14"/><rect x="0" y="16" width="5" height="92" rx="2" fill="#9ECE6A"/><text class="tag" x="26" y="38" style="fill:#9ECE6A;letter-spacing:2px">CRITERIO</text><text class="body" x="26" y="70">Los descartados quedan con su</text><text class="body" x="26" y="94">motivo; decide una persona.</text></g>
+</svg>
