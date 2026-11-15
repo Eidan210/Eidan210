@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 270" width="1000" height="270" role="img" aria-labelledby="t d">
+  <title id="t">Flujo de la preselección de candidatos</title>
+  <desc id="d">El CV en PDF entra a n8n, que extrae el texto; Google Gemini lo puntúa contra la vacante; si supera el umbral se avisa a RRHH por Gmail y Telegram y una persona decide; si no, queda registrado con el motivo</desc>
+  <defs>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path class="head" d="M0 0 L10 5 L0 10 Z"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+
+    .card { fill: #ffffff; stroke: #d0d7de; }
+    .hl { fill: #eef3ff; stroke: #7AA2F7; }
+    .name { fill: #1f2328; font-size: 16px; font-weight: 700; }
+    .item { fill: #59636e; font-size: 13.5px; }
+    .tag { fill: #59636e; font-size: 13px; font-weight: 600; }
+    .arrow { fill: none; stroke: #8c959f; stroke-width: 2; }
+    .head { fill: #8c959f; }
+    @media (prefers-color-scheme: dark) {
+      .card { fill: #161b22; stroke: #30363d; }
+      .hl { fill: #1a2236; stroke: #7AA2F7; }
+      .name { fill: #f0f6fc; }
+      .item, .tag { fill: #9198a1; }
+      .title { fill: #f0f6fc; }
+      .arrow { stroke: #6e7681; }
+      .head { fill: #6e7681; }
+    }
+  </style>
+  <rect class="card" x="4" y="102" width="132" height="66" rx="12"/><rect x="4" y="114" width="4" height="42" rx="2" fill="#99A1B3"/><text class="name" x="70.0" y="131.0" text-anchor="middle">CV en PDF</text><text class="item" x="70.0" y="152.0" text-anchor="middle">entrada</text>
+  <path d="M138 135.0 H166" class="arrow" marker-end="url(#head)"/>
+  <rect class="card" x="170" y="102" width="160" height="66" rx="12"/><rect x="170" y="114" width="4" height="42" rx="2" fill="#EA4B71"/><text class="name" x="250.0" y="131.0" text-anchor="middle">n8n</text><text class="item" x="250.0" y="152.0" text-anchor="middle">extrae y normaliza</text>
+  <path d="M332 135.0 H360" class="arrow" marker-end="url(#head)"/>
+  <rect class="card" x="362" y="102" width="184" height="66" rx="12"/><rect x="362" y="114" width="4" height="42" rx="2" fill="#8E75B2"/><text class="name" x="454.0" y="131.0" text-anchor="middle">Google Gemini</text><text class="item" x="454.0" y="152.0" text-anchor="middle">puntúa contra la vacante</text>
+  <path d="M548 135.0 H566" class="arrow" marker-end="url(#head)"/>
+  <path class="card" d="M630 94 L700 135.0 L630 176 L560 135.0 Z" transform="translate(10 0)"/>
+  <text class="name" x="640" y="133.0" text-anchor="middle">¿Supera</text>
+  <text class="name" x="640" y="151.0" text-anchor="middle">el umbral?</text>
+  <path d="M640 92 V40 H716" class="arrow" marker-end="url(#head)"/><text class="tag" x="624" y="60" text-anchor="middle">Sí</text>
+  <path d="M640 178 V230 H716" class="arrow" marker-end="url(#head)"/><text class="tag" x="624" y="216" text-anchor="middle">No</text>
+  <rect class="card" x="720" y="8" width="132" height="66" rx="12"/><rect x="720" y="20" width="4" height="42" rx="2" fill="#9ECE6A"/><text class="name" x="786.0" y="37.0" text-anchor="middle">Aviso a RRHH</text><text class="item" x="786.0" y="58.0" text-anchor="middle">Gmail + Telegram</text>
+  <path d="M854 41.0 H862" class="arrow" marker-end="url(#head)"/>
+  <rect class="hl" x="866" y="8" width="130" height="66" rx="12"/><rect x="866" y="20" width="4" height="42" rx="2" fill="#7AA2F7"/><text class="name" x="931.0" y="37.0" text-anchor="middle">Una persona</text><text class="item" x="931.0" y="58.0" text-anchor="middle">toma la decisión</text>
+  <rect class="card" x="720" y="197" width="276" height="66" rx="12"/><rect x="720" y="209" width="4" height="42" rx="2" fill="#F7768E"/><text class="name" x="858.0" y="226.0" text-anchor="middle">Queda registrado</text><text class="item" x="858.0" y="247.0" text-anchor="middle">con el motivo del descarte</text>
+</svg>

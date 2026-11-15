@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Eidan Cuadros — Junior Software Developer</title>
+  <desc id="d">Banner del perfil: Eidan Cuadros, desarrollador junior de backend y automatización en Floridablanca, Colombia, con un escarabajo pixel art que camina sobre un editor de código</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0F14"/>
+      <stop offset=".6" stop-color="#141822"/>
+      <stop offset="1" stop-color="#1F2640"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#7AA2F7" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#7AA2F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#7AA2F7" opacity=".10"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="300" rx="20"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
+    .mono { font-family: 'JetBrains Mono', Consolas, 'SFMono-Regular', Menlo, 'DejaVu Sans Mono', monospace; font-size: 13.5px; }
+    .crawl { animation: crawl 14s ease-in-out infinite; }
+    .pulse { transform-box: fill-box; transform-origin: 50% 50%; animation: pulse 2.4s ease-out infinite; }
+    .cursor { animation: cursor 1.1s steps(1) infinite; }
+    @keyframes crawl { 0%, 6% { transform: translateX(0); } 46%, 54% { transform: translateX(220px); } 94%, 100% { transform: translateX(0); } }
+    @keyframes pulse { 0% { transform: scale(1); opacity: .7; } 100% { transform: scale(2.6); opacity: 0; } }
+    @keyframes cursor { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+    .legs-a { animation: legA .5s steps(1) infinite; }
+    .legs-b { animation: legB .5s steps(1) infinite; }
+    .bob { animation: bob 1s steps(2) infinite; }
+    .blink { transform-box: fill-box; transform-origin: 50% 50%; animation: blink 4.5s infinite; }
+    .led { animation: led 2s ease-in-out infinite; }
+    @keyframes legA { 0% { transform: translateY(0); } 50% { transform: translateY(-1.5px); } }
+    @keyframes legB { 0% { transform: translateY(-1.5px); } 50% { transform: translateY(0); } }
+    @keyframes bob { 0% { transform: translateY(0); } 50% { transform: translateY(-1px); } }
+    @keyframes blink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+    @keyframes led { 0%, 100% { opacity: 1; } 50% { opacity: .35; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#dots)"/>
+    <circle cx="790" cy="170" r="260" fill="url(#glow)"/>
+    <rect y="296" width="1000" height="4" fill="#7AA2F7" opacity=".85"/>
+
+    <text x="56" y="86" fill="#7AA2F7" font-size="15" font-weight="600" letter-spacing="4">FLORIDABLANCA · COLOMBIA</text>
+    <text x="53" y="152" fill="#E4E7EE" font-size="60" font-weight="800">Eidan Cuadros</text>
+    <text x="56" y="192" fill="#C0CAF5" font-size="21">Junior Software Developer · Backend · Automatización</text>
+
+    <g transform="translate(56 222)">
+      <rect width="318" height="36" rx="18" fill="#9ECE6A" fill-opacity=".12" stroke="#9ECE6A" stroke-opacity=".45"/>
+      <circle class="pulse" cx="20" cy="18" r="5" fill="#9ECE6A"/>
+      <circle cx="20" cy="18" r="5" fill="#9ECE6A"/>
+      <text x="36" y="24" fill="#D5F0B1" font-size="15" font-weight="600">Disponible para mi primer rol junior</text>
+    </g>
+
+    <g>
+      <rect x="626" y="92" width="336" height="168" rx="12" fill="#14171F" stroke="#2A3047"/>
+      <path d="M638 92 H950 A12 12 0 0 1 962 104 V114 H626 V104 A12 12 0 0 1 638 92 Z" fill="#1A1E28"/>
+      <circle cx="646" cy="103" r="4.5" fill="#F7768E"/>
+      <circle cx="662" cy="103" r="4.5" fill="#E0AF68"/>
+      <circle cx="678" cy="103" r="4.5" fill="#9ECE6A"/>
+      <text x="944" y="108" fill="#565F89" font-size="11.5" text-anchor="end" class="mono" style="font-size:11.5px">perfil.js</text>
+      <text x="650" y="140" class="mono" xml:space="preserve"><tspan fill="#3B4261">1 </tspan><tspan fill="#BB9AF7">const </tspan><tspan fill="#E4E7EE">eidan</tspan><tspan fill="#99A1B3"> = {</tspan></text><text x="650" y="164" class="mono" xml:space="preserve"><tspan fill="#3B4261">2 </tspan><tspan fill="#7DCFFF">  stack</tspan><tspan fill="#99A1B3">: [</tspan><tspan fill="#9ECE6A">"JS"</tspan><tspan fill="#99A1B3">, </tspan><tspan fill="#9ECE6A">"Python"</tspan><tspan fill="#99A1B3">, </tspan><tspan fill="#9ECE6A">"Java"</tspan><tspan fill="#99A1B3">],</tspan></text><text x="650" y="188" class="mono" xml:space="preserve"><tspan fill="#3B4261">3 </tspan><tspan fill="#7DCFFF">  automatiza</tspan><tspan fill="#99A1B3">: </tspan><tspan fill="#9ECE6A">"n8n"</tspan><tspan fill="#99A1B3">,</tspan></text><text x="650" y="212" class="mono" xml:space="preserve"><tspan fill="#3B4261">4 </tspan><tspan fill="#7DCFFF">  busca</tspan><tspan fill="#99A1B3">: </tspan><tspan fill="#E0AF68">"primer rol junior"</tspan><tspan fill="#99A1B3">,</tspan></text><text x="650" y="236" class="mono" xml:space="preserve"><tspan fill="#3B4261">5 </tspan><tspan fill="#99A1B3">};</tspan></text>
+      <rect class="cursor" x="688" y="223" width="8" height="16" fill="#7AA2F7"/>
+    </g>
+
+    <g transform="translate(646 17)">
+      <g class="crawl"><g class="legs-a"><rect x="-5" y="40" width="5" height="5" fill="#565F89"/><rect x="-10" y="45" width="5" height="5" fill="#565F89"/><rect x="65" y="50" width="5" height="5" fill="#565F89"/><rect x="70" y="55" width="5" height="5" fill="#565F89"/><rect x="-5" y="60" width="5" height="5" fill="#565F89"/><rect x="-10" y="65" width="5" height="5" fill="#565F89"/></g><g class="legs-b"><rect x="65" y="40" width="5" height="5" fill="#565F89"/><rect x="70" y="45" width="5" height="5" fill="#565F89"/><rect x="-5" y="50" width="5" height="5" fill="#565F89"/><rect x="-10" y="55" width="5" height="5" fill="#565F89"/><rect x="65" y="60" width="5" height="5" fill="#565F89"/><rect x="70" y="65" width="5" height="5" fill="#565F89"/></g><g class="bob"><rect x="15" y="5" width="5" height="5" fill="#99A1B3"/><rect x="45" y="5" width="5" height="5" fill="#99A1B3"/><rect x="20" y="10" width="5" height="5" fill="#99A1B3"/><rect x="40" y="10" width="5" height="5" fill="#99A1B3"/><rect x="15" y="15" width="5" height="5" fill="#3D59A1"/><rect x="20" y="15" width="5" height="5" fill="#3D59A1"/><rect x="25" y="15" width="5" height="5" fill="#3D59A1"/><rect x="30" y="15" width="5" height="5" fill="#3D59A1"/><rect x="35" y="15" width="5" height="5" fill="#3D59A1"/><rect x="40" y="15" width="5" height="5" fill="#3D59A1"/><rect x="45" y="15" width="5" height="5" fill="#3D59A1"/><rect x="10" y="20" width="5" height="5" fill="#3D59A1"/><rect x="15" y="20" width="5" height="5" fill="#3D59A1"/><rect x="20" y="20" width="5" height="5" fill="#3D59A1"/><rect x="25" y="20" width="5" height="5" fill="#3D59A1"/><rect x="30" y="20" width="5" height="5" fill="#3D59A1"/><rect x="35" y="20" width="5" height="5" fill="#3D59A1"/><rect x="40" y="20" width="5" height="5" fill="#3D59A1"/><rect x="45" y="20" width="5" height="5" fill="#3D59A1"/><rect x="50" y="20" width="5" height="5" fill="#3D59A1"/><rect x="10" y="25" width="5" height="5" fill="#3D59A1"/><rect x="15" y="25" width="5" height="5" fill="#3D59A1"/><rect x="20" y="25" width="5" height="5" fill="#3D59A1"/><rect x="25" y="25" width="5" height="5" fill="#3D59A1"/><rect x="30" y="25" width="5" height="5" fill="#3D59A1"/><rect x="35" y="25" width="5" height="5" fill="#3D59A1"/><rect x="40" y="25" width="5" height="5" fill="#3D59A1"/><rect x="45" y="25" width="5" height="5" fill="#3D59A1"/><rect x="50" y="25" width="5" height="5" fill="#3D59A1"/><rect x="10" y="30" width="5" height="5" fill="#3D59A1"/><rect x="15" y="30" width="5" height="5" fill="#3D59A1"/><rect x="20" y="30" width="5" height="5" fill="#F7768E"/><rect x="25" y="30" width="5" height="5" fill="#3D59A1"/><rect x="30" y="30" width="5" height="5" fill="#3D59A1"/><rect x="35" y="30" width="5" height="5" fill="#3D59A1"/><rect x="40" y="30" width="5" height="5" fill="#F7768E"/><rect x="45" y="30" width="5" height="5" fill="#3D59A1"/><rect x="50" y="30" width="5" height="5" fill="#3D59A1"/><rect x="5" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="15" y="35" width="5" height="5" fill="#B4C8FF"/><rect x="20" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="35" width="5" height="5" fill="#3D59A1"/><rect x="35" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="55" y="35" width="5" height="5" fill="#7AA2F7"/><rect x="0" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="5" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="40" width="5" height="5" fill="#B4C8FF"/><rect x="15" y="40" width="5" height="5" fill="#B4C8FF"/><rect x="20" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="40" width="5" height="5" fill="#3D59A1"/><rect x="35" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="55" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="60" y="40" width="5" height="5" fill="#7AA2F7"/><rect x="0" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="5" y="45" width="5" height="5" fill="#B4C8FF"/><rect x="10" y="45" width="5" height="5" fill="#B4C8FF"/><rect x="15" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="20" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="45" width="5" height="5" fill="#3D59A1"/><rect x="35" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="45" width="5" height="5" fill="#3D59A1"/><rect x="50" y="45" width="5" height="5" fill="#3D59A1"/><rect x="55" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="60" y="45" width="5" height="5" fill="#7AA2F7"/><rect x="0" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="5" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="50" width="5" height="5" fill="#3D59A1"/><rect x="15" y="50" width="5" height="5" fill="#3D59A1"/><rect x="20" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="50" width="5" height="5" fill="#3D59A1"/><rect x="35" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="50" width="5" height="5" fill="#3D59A1"/><rect x="55" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="60" y="50" width="5" height="5" fill="#7AA2F7"/><rect x="0" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="5" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="15" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="20" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="55" width="5" height="5" fill="#3D59A1"/><rect x="35" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="55" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="60" y="55" width="5" height="5" fill="#7AA2F7"/><rect x="5" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="15" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="20" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="60" width="5" height="5" fill="#3D59A1"/><rect x="35" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="55" y="60" width="5" height="5" fill="#7AA2F7"/><rect x="10" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="15" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="20" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="35" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="45" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="50" y="65" width="5" height="5" fill="#7AA2F7"/><rect x="20" y="70" width="5" height="5" fill="#7AA2F7"/><rect x="25" y="70" width="5" height="5" fill="#7AA2F7"/><rect x="30" y="70" width="5" height="5" fill="#7AA2F7"/><rect x="35" y="70" width="5" height="5" fill="#7AA2F7"/><rect x="40" y="70" width="5" height="5" fill="#7AA2F7"/><g class="led"><rect x="10" y="0" width="5" height="5" fill="#9ECE6A"/><rect x="50" y="0" width="5" height="5" fill="#9ECE6A"/></g><g class="blink"><rect x="15" y="20" width="10" height="10" fill="#E4E7EE"/><rect x="20" y="22" width="5" height="5" fill="#0D0F14"/><rect x="40" y="20" width="10" height="10" fill="#E4E7EE"/><rect x="45" y="22" width="5" height="5" fill="#0D0F14"/></g></g></g>
+    </g>
+  </g>
+</svg>
